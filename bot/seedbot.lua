@@ -221,13 +221,11 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {150575718,104254582,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
 
 Admins
 @iwals [Founder]
@@ -324,7 +322,7 @@ Commands list :
 
 !kick [username|id]
 You can also do it by reply
-
+با ریپلی نیز میتوانید شخص مورد نظر خود را حذف کنید
 !ban [ username|id]
 You can also do it by reply
 
@@ -336,25 +334,25 @@ Members list
 
 !modlist
 Moderators list
-
+با این دستور میتوانید لیست مدیران را ببینید
 !promote [username]
 Promote someone
-
+بااین دستور میتوانید شخص مورد نظر را مدیر کنید 🙌
 !demote [username]
 Demote someone
-
+با این دستور ضدحال میزنید به شخص و از مدیریت خارج میکنیش حسود 😱
 !kickme
 Will kick user
-
+اینو بزن جایزه میده😂
 !about
 Group description
 
 !setphoto
 Set and locks group photo
-
+اینو بزنی عکس میخوادا😁
 !setname [name]
 Set group name
-
+اینو نزن اذیت نکن کاکو حال ندارم اسمو عوض کنم
 !rules
 Group rules
 
